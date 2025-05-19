@@ -1,0 +1,145 @@
+@font-face {
+  font-family: pbold;
+  src: url(./Fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: raleway;
+  src: url(./Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: sweet;
+    src: url(./Fonts/SweetJosephine-pgeE1.ttf);
+}
+@font-face {
+    font-family: mell;
+    src: url(./Fonts/Mellgatha\(For\ Personal\ Use\)_.ttf);
+}
+html {
+  /* max-width: 900px; */
+}
+body {
+  background-color: rgb(180, 91, 121);
+  box-sizing: border-box;
+  font-family: raleway;
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.header {
+  justify-content: space-between;
+  margin: 0px 0px 10px;
+  background-color: rgba(129, 88, 88, 0.8);
+}
+.cafe-name{
+    font-family: mell;
+    color: white;
+    font-size: 7rem;
+}
+.menu {
+  padding: 10px;
+  /* width: 95vw; */
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.menu-Section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.Menu-title {
+  text-align: center;
+  width: 100%;
+  font-size: 8rem;
+  font-family: pbold;
+  color: rgb(121, 68, 43);
+  margin: 0 0 10px;
+  /* border: 2px solid black; */
+  border-bottom: solid rgb(121, 68, 43) 3px;
+  width: 60vw;
+  font-family: sweet;
+}
+.menu-items {
+  /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  background-color: white;
+  border-radius: 35px;
+  /* border: 7px solid rgba(87, 87, 87, 0.603); */
+  width: 90vw;
+  margin: auto;
+  margin: 30px 0;
+}
+.img {
+  /* width: 100%; */
+  margin: 50px 30px;
+  border-radius: 35px;
+  /* max-height: 40vw; */
+  text-align: center;
+}
+img {
+  width: 90%;
+  border-radius: 15px;
+  height: 50vw;
+  opacity: 0;
+}
+.item-text {
+  margin: 10px;
+}
+.item-title {
+  font-size: 4rem;
+  padding: 10px;
+  margin: 45px;
+}
+.item-description {
+  font-size: 2.5rem;
+  padding: 10px;
+  margin: 45px;
+}
+.espresso{
+    background-image: url(./img/img/Espresso.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.macchiato{
+    background-image: url(./img/img/Macchiato.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Americano{
+    background-image: url(./img/img/Americano.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Cappuccino{
+    background-image: url(./img/img/Cappuccino.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.Cortado{
+    background-image: url(./img/img/Cortado.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.latte{
+    background-image: url(./img/img/Latte.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Mochaccino{
+    background-image: url(./img/img/Mochaccino.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.Kurdish{
+    background-image: url(./img/img/Kurdish.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.flat-white{
+    background-image: url(./img/img/Flat_white.webp);
+    background-position: center;
+    background-size: cover;
+}
