@@ -48,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   /* border: 2px solid black; */
+  margin: 50px 0;
 }
 .Menu-title {
   text-align: center;
@@ -140,6 +141,136 @@ img {
 }
 .flat-white{
     background-image: url(./img/img/Flat_white.webp);
+    background-position: center;
+    background-size: cover;
+}
+.Lupon{
+    background-image: url(./img/img/Lupon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lotus{
+    background-image: url(./img/img/Lotus.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Peanut-Butter{
+    background-image: url(./img/img/Peanut.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Nutella{
+    background-image: url(./img/img/Nutella.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.Milka{
+    background-image: url(./img/img/Milka.jpeg);
+    background-position: bottom;
+    background-size: cover;
+}
+.vanilla{
+    background-image: url(./img/img/Vanilla.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Espresso-shake{
+    background-image: url(./img/img/Espresso\ SHake.jpeg);
+    background-position: bottom;
+    background-size: cover;
+}
+.Saffron{
+    background-image: url(./img/img/Saffron\ Rosewater.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Lupon-Smoothies{
+    background-image: url(./img/img/Lupon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Strawberry{
+    background-image: url(./img/img/Strawberry.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.watermelon{
+    background-image: url(./img/img/Watermelon.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Lemon-Strawberry{
+    background-image: url(./img/img/Lemon-Strawberry.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Watermelon-Strawberry{
+    background-image: url(./img/img/Watermelon-strawberry.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Mojito{
+    background-image: url(./img/img/Mojito.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Lemonade{
+    background-image: url(./img/img/Lemonade.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.lupon-Hot{
+    background-image: url(./img/img/Lupon-Hot.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Echium{
+    background-image: url(./img/img/Echium.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.chill{
+    background-image: url(./img/img/Chill.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Lemon-Quince{
+    background-image: url(./img/img/Lemonquince.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.ginger{
+    background-image: url(./img/img/Ginger.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.bitter-orange{
+    background-image: url(./img/img/Bitter-Orange.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.fit-herbal{
+    background-image: url(./img/img/fit.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Lahijan-Chai{
+    background-image: url(./img/img/Lahijan-chai.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.masala-chai{
+    background-image: url(./img/img/Masala.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.matcha-latte{
+    background-image: url(./img/img/Matcha\ Latte.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Hot-chocolate{
+    background-image: url(./img/img/Hot-Chocolate.jpeg);
     background-position: center;
     background-size: cover;
 }
