@@ -35,6 +35,7 @@ body {
     font-family: mell;
     color: white;
     font-size: 7rem;
+    margin-left: 30px;
 }
 .menu {
   padding: 10px;
@@ -98,6 +99,15 @@ img {
   font-size: 2.5rem;
   padding: 10px;
   margin: 45px;
+}
+.Caution{
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 45px;
+}
+.Caution-icon{
+    margin-right: 10px;
+    color: rgb(199, 196, 0);
 }
 .espresso{
     background-image: url(./img/img/Espresso.jpg);
@@ -185,8 +195,8 @@ img {
     background-size: cover;
 }
 .Lupon-Smoothies{
-    background-image: url(./img/img/Lupon.jpg);
-    background-position: center;
+    background-image: url(./img/img/Lupon2.jpeg);
+    background-position: bottom left;
     background-size: cover;
 }
 .Strawberry{
