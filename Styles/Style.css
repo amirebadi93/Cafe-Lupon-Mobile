@@ -7,12 +7,16 @@
   src: url(./Fonts/Raleway/Raleway-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: sweet;
-    src: url(./Fonts/SweetJosephine-pgeE1.ttf);
+  font-family: sweet;
+  src: url(./Fonts/SweetJosephine-pgeE1.ttf);
 }
 @font-face {
-    font-family: mell;
-    src: url(./Fonts/Mellgatha\(For\ Personal\ Use\)_.ttf);
+  font-family: mell;
+  src: url(./Fonts/Mellgatha\(For\Personal\Use\)_.ttf);
+}
+@font-face {
+  font-family: vazir;
+  src: url(https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/Vazir.ttf);
 }
 html {
   /* max-width: 900px; */
@@ -20,8 +24,15 @@ html {
 body {
   background-color: rgb(180, 91, 121);
   box-sizing: border-box;
-  font-family: raleway;
+  font-family: vazir, raleway;
   margin: 0;
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL support for menu items */
+.menu-items {
+  direction: rtl;
 }
 .flex {
   display: flex;
@@ -31,11 +42,11 @@ body {
   margin: 0px 0px 10px;
   background-color: rgba(129, 88, 88, 0.8);
 }
-.cafe-name{
-    font-family: mell;
-    color: white;
-    font-size: 7rem;
-    margin-left: 30px;
+.cafe-name {
+  font-family: vazir, mell;
+  color: white;
+  font-size: 7rem;
+  margin-right: 30px;
 }
 .menu {
   padding: 10px;
@@ -55,13 +66,12 @@ body {
   text-align: center;
   width: 100%;
   font-size: 8rem;
-  font-family: pbold;
+  font-family: vazir, pbold;
   color: rgb(121, 68, 43);
   margin: 0 0 10px;
   /* border: 2px solid black; */
   border-bottom: solid rgb(121, 68, 43) 3px;
   width: 60vw;
-  font-family: sweet;
 }
 .menu-items {
   /* flex-direction: column;
@@ -94,193 +104,198 @@ img {
   font-size: 4rem;
   padding: 10px;
   margin: 45px;
+  font-family: vazir, raleway;
 }
-.item-description {
+.item-description,
+.item-Description {
   font-size: 2.5rem;
   padding: 10px;
   margin: 45px;
+  font-family: vazir, raleway;
 }
-.Caution{
-    font-size: 2.5rem;
-    padding: 10px;
-    margin: 45px;
+.Caution,
+.caution {
+  font-size: 2.5rem;
+  padding: 10px;
+  margin: 45px;
+  font-family: vazir, raleway;
 }
-.Caution-icon{
-    margin-right: 10px;
-    color: rgb(199, 196, 0);
+.Caution-icon {
+  margin-left: 10px;
+  color: rgb(199, 196, 0);
 }
-.espresso{
-    background-image: url(./img/img/Espresso.jpg);
-    background-position: center;
-    background-size: cover;
+.espresso {
+  background-image: url(./img/img/Espresso.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.macchiato{
-    background-image: url(./img/img/Macchiato.jpg);
-    background-position: center;
-    background-size: cover;
+.macchiato {
+  background-image: url(./img/img/Macchiato.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.Americano{
-    background-image: url(./img/img/Americano.jpg);
-    background-position: center;
-    background-size: cover;
+.Americano {
+  background-image: url(./img/img/Americano.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.Cappuccino{
-    background-image: url(./img/img/Cappuccino.jpg);
-    background-position: bottom;
-    background-size: cover;
+.Cappuccino {
+  background-image: url(./img/img/Cappuccino.jpg);
+  background-position: bottom;
+  background-size: cover;
 }
-.Cortado{
-    background-image: url(./img/img/Cortado.jpg);
-    background-position: center;
-    background-size: cover;
+.Cortado {
+  background-image: url(./img/img/Cortado.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.latte{
-    background-image: url(./img/img/Latte.jpg);
-    background-position: center;
-    background-size: cover;
+.latte {
+  background-image: url(./img/img/Latte.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.Mochaccino{
-    background-image: url(./img/img/Mochaccino.jpg);
-    background-position: bottom;
-    background-size: cover;
+.Mochaccino {
+  background-image: url(./img/img/Mochaccino.jpg);
+  background-position: bottom;
+  background-size: cover;
 }
-.Kurdish{
-    background-image: url(./img/img/Kurdish.jpg);
-    background-position: bottom;
-    background-size: cover;
+.Kurdish {
+  background-image: url(./img/img/Kurdish.jpg);
+  background-position: bottom;
+  background-size: cover;
 }
-.flat-white{
-    background-image: url(./img/img/Flat_white.webp);
-    background-position: center;
-    background-size: cover;
+.flat-white {
+  background-image: url(./img/img/Flat_white.webp);
+  background-position: center;
+  background-size: cover;
 }
-.Lupon{
-    background-image: url(./img/img/Lupon.jpg);
-    background-position: center;
-    background-size: cover;
+.Lupon {
+  background-image: url(./img/img/Lupon.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.lotus{
-    background-image: url(./img/img/Lotus.jpg);
-    background-position: center;
-    background-size: cover;
+.lotus {
+  background-image: url(./img/img/Lotus.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.Peanut-Butter{
-    background-image: url(./img/img/Peanut.jpg);
-    background-position: center;
-    background-size: cover;
+.Peanut-Butter {
+  background-image: url(./img/img/Peanut.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.Nutella{
-    background-image: url(./img/img/Nutella.jpg);
-    background-position: top;
-    background-size: cover;
+.Nutella {
+  background-image: url(./img/img/Nutella.jpg);
+  background-position: top;
+  background-size: cover;
 }
-.Milka{
-    background-image: url(./img/img/Milka.jpeg);
-    background-position: bottom;
-    background-size: cover;
+.Milka {
+  background-image: url(./img/img/Milka.jpeg);
+  background-position: bottom;
+  background-size: cover;
 }
-.vanilla{
-    background-image: url(./img/img/Vanilla.jpeg);
-    background-position: center;
-    background-size: cover;
+.vanilla {
+  background-image: url(./img/img/Vanilla.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Espresso-shake{
-    background-image: url(./img/img/Espresso\ SHake.jpeg);
-    background-position: bottom;
-    background-size: cover;
+.Espresso-shake {
+  background-image: url(./img/img/Espresso\ SHake.jpeg);
+  background-position: bottom;
+  background-size: cover;
 }
-.Saffron{
-    background-image: url(./img/img/Saffron\ Rosewater.jpg);
-    background-position: center;
-    background-size: cover;
+.Saffron {
+  background-image: url(./img/img/Saffron\ Rosewater.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.Lupon-Smoothies{
-    background-image: url(./img/img/Lupon2.jpeg);
-    background-position: bottom left;
-    background-size: cover;
+.Lupon-Smoothies {
+  background-image: url(./img/img/Lupon2.jpeg);
+  background-position: bottom left;
+  background-size: cover;
 }
-.Strawberry{
-    background-image: url(./img/img/Strawberry.jpeg);
-    background-position: center;
-    background-size: cover;
+.Strawberry {
+  background-image: url(./img/img/Strawberry.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.watermelon{
-    background-image: url(./img/img/Watermelon.jpeg);
-    background-position: center;
-    background-size: cover;
+.watermelon {
+  background-image: url(./img/img/Watermelon.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Lemon-Strawberry{
-    background-image: url(./img/img/Lemon-Strawberry.jpeg);
-    background-position: center;
-    background-size: cover;
+.Lemon-Strawberry {
+  background-image: url(./img/img/Lemon-Strawberry.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Watermelon-Strawberry{
-    background-image: url(./img/img/Watermelon-strawberry.jpeg);
-    background-position: center;
-    background-size: cover;
+.Watermelon-Strawberry {
+  background-image: url(./img/img/Watermelon-strawberry.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Mojito{
-    background-image: url(./img/img/Mojito.jpeg);
-    background-position: center;
-    background-size: cover;
+.Mojito {
+  background-image: url(./img/img/Mojito.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Lemonade{
-    background-image: url(./img/img/Lemonade.jpeg);
-    background-position: center;
-    background-size: cover;
+.Lemonade {
+  background-image: url(./img/img/Lemonade.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.lupon-Hot{
-    background-image: url(./img/img/Lupon-Hot.jpeg);
-    background-position: center;
-    background-size: cover;
+.lupon-Hot {
+  background-image: url(./img/img/Lupon-Hot.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Echium{
-    background-image: url(./img/img/Echium.jpeg);
-    background-position: center;
-    background-size: cover;
+.Echium {
+  background-image: url(./img/img/Echium.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.chill{
-    background-image: url(./img/img/Chill.jpeg);
-    background-position: center;
-    background-size: cover;
+.chill {
+  background-image: url(./img/img/Chill.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Lemon-Quince{
-    background-image: url(./img/img/Lemonquince.jpeg);
-    background-position: center;
-    background-size: cover;
+.Lemon-Quince {
+  background-image: url(./img/img/Lemonquince.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.ginger{
-    background-image: url(./img/img/Ginger.jpeg);
-    background-position: center;
-    background-size: cover;
+.ginger {
+  background-image: url(./img/img/Ginger.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.bitter-orange{
-    background-image: url(./img/img/Bitter-Orange.jpeg);
-    background-position: center;
-    background-size: cover;
+.bitter-orange {
+  background-image: url(./img/img/Bitter-Orange.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.fit-herbal{
-    background-image: url(./img/img/fit.jpeg);
-    background-position: center;
-    background-size: cover;
+.fit-herbal {
+  background-image: url(./img/img/fit.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Lahijan-Chai{
-    background-image: url(./img/img/Lahijan-chai.jpeg);
-    background-position: center;
-    background-size: cover;
+.Lahijan-Chai {
+  background-image: url(./img/img/Lahijan-chai.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.masala-chai{
-    background-image: url(./img/img/Masala.jpeg);
-    background-position: center;
-    background-size: cover;
+.masala-chai {
+  background-image: url(./img/img/Masala.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.matcha-latte{
-    background-image: url(./img/img/Matcha\ Latte.jpeg);
-    background-position: center;
-    background-size: cover;
+.matcha-latte {
+  background-image: url(./img/img/Matcha\ Latte.jpeg);
+  background-position: center;
+  background-size: cover;
 }
-.Hot-chocolate{
-    background-image: url(./img/img/Hot-Chocolate.jpeg);
-    background-position: center;
-    background-size: cover;
+.Hot-chocolate {
+  background-image: url(./img/img/Hot-Chocolate.jpeg);
+  background-position: center;
+  background-size: cover;
 }
